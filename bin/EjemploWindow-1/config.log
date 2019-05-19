@@ -1,0 +1,89 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:562: checking for a BSD compatible install
+configure:615: checking whether build environment is sane
+configure:672: checking whether make sets ${MAKE}
+configure:718: checking for working aclocal
+configure:731: checking for working autoconf
+configure:744: checking for working automake
+configure:757: checking for working autoheader
+configure:770: checking for working makeinfo
+configure:789: checking for strerror in -lcposix
+configure:835: checking for c++
+configure:867: checking whether the C++ compiler (c++  ) works
+configure:883: c++ -o conftest    conftest.C  1>&5
+configure:909: checking whether the C++ compiler (c++  ) is a cross-compiler
+configure:914: checking whether we are using GNU C++
+configure:942: checking whether c++ accepts -g
+configure:991: cc -c   conftest.c 1>&5
+configure:1008: cc -c   conftest.c 1>&5
+configure:1027: checking for gcc
+configure:1140: checking whether the C compiler (gcc  ) works
+configure:1156: gcc -o conftest    conftest.c  1>&5
+configure:1182: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:1187: checking whether we are using GNU C
+configure:1215: checking whether gcc accepts -g
+configure:1250: checking for gcc option to accept ANSI C
+configure:1327: checking how to run the C preprocessor
+configure:1407: checking for ANSI C header files
+configure:1520: checking host system type
+configure:1543: checking for ranlib
+configure:1571: checking for working const
+configure:1646: checking for inline
+configure:1686: checking for off_t
+configure:1719: checking for size_t
+configure:1754: checking for working alloca.h
+configure:1787: checking for alloca
+configure:1989: checking for stdlib.h
+configure:1989: checking for unistd.h
+configure:1989: checking for sys/stat.h
+configure:1989: checking for sys/types.h
+configure:2028: checking for getpagesize
+configure:2081: checking for working mmap
+configure:2266: checking whether we are using the GNU C Library 2.1 or newer
+configure:2307: checking for argz.h
+configure:2307: checking for limits.h
+configure:2307: checking for locale.h
+configure:2307: checking for nl_types.h
+configure:2307: checking for malloc.h
+configure:2307: checking for stddef.h
+configure:2307: checking for stdlib.h
+configure:2307: checking for string.h
+configure:2307: checking for unistd.h
+configure:2307: checking for sys/param.h
+configure:2348: checking for feof_unlocked
+configure:2348: checking for fgets_unlocked
+configure:2348: checking for getcwd
+configure:2348: checking for getegid
+configure:2348: checking for geteuid
+configure:2348: checking for getgid
+configure:2348: checking for getuid
+configure:2348: checking for mempcpy
+configure:2348: checking for munmap
+configure:2348: checking for putenv
+configure:2348: checking for setenv
+configure:2348: checking for setlocale
+configure:2348: checking for stpcpy
+configure:2348: checking for strchr
+configure:2348: checking for strcasecmp
+configure:2348: checking for strdup
+configure:2348: checking for strtoul
+configure:2348: checking for tsearch
+configure:2348: checking for __argz_count
+configure:2348: checking for __argz_stringify
+configure:2348: checking for __argz_next
+configure:2416: checking for iconv
+configure:2477: checking for iconv declaration
+configure:2531: checking for nl_langinfo and CODESET
+configure:2566: checking for LC_MESSAGES
+configure:2599: checking whether NLS is requested
+configure:2621: checking whether included gettext is requested
+configure:2641: checking for libintl.h
+configure:2668: checking for GNU gettext in libc
+configure:2747: checking for dcgettext
+configure:2804: checking for msgfmt
+configure:2838: checking for gmsgfmt
+configure:2876: checking for xgettext
+configure:3058: checking for bison
+configure:3091: checking version of bison

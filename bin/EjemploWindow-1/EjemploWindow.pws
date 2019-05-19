@@ -1,0 +1,15 @@
+
+[filenumbers]
+0=173
+
+[filemarkers]
+0=
+
+[executer]
+RunInTerminal=false
+
+[Project DBase]
+ShowLocals=true
+
+[filelist]
+0=/root/MTK/bin/EjemploWindow-1/src/main.cc

@@ -1,0 +1,279 @@
+main.o: main.cc ../../../include/MephApp.h /usr/include/g++-3/alloc.h \
+  /usr/include/g++-3/stl_config.h /usr/include/_G_config.h \
+  /usr/include/bits/types.h /usr/include/features.h \
+  /usr/include/sys/cdefs.h /usr/include/gnu/stubs.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stddef.h \
+  /usr/include/bits/pthreadtypes.h /usr/include/bits/sched.h \
+  /usr/include/wchar.h /usr/include/bits/wchar.h /usr/include/gconv.h \
+  /usr/include/g++-3/stl_alloc.h /usr/include/g++-3/iostream.h \
+  /usr/include/g++-3/streambuf.h /usr/include/libio.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stdarg.h \
+  /usr/include/stdlib.h /usr/include/sys/types.h /usr/include/time.h \
+  /usr/include/endian.h /usr/include/bits/endian.h \
+  /usr/include/sys/select.h /usr/include/bits/select.h \
+  /usr/include/bits/sigset.h /usr/include/bits/time.h \
+  /usr/include/sys/sysmacros.h /usr/include/alloca.h \
+  /usr/include/string.h /usr/include/assert.h /usr/include/pthread.h \
+  /usr/include/sched.h /usr/include/signal.h /usr/include/bits/initspin.h \
+  /usr/include/bits/sigthread.h ../../../include/MephAppSingleton.h \
+  ../../../include/MephAppImp_X11.h /usr/X11R6/include/X11/Xlib.h \
+  /usr/X11R6/include/X11/X.h /usr/X11R6/include/X11/Xfuncproto.h \
+  /usr/X11R6/include/X11/Xosdefs.h /usr/X11R6/include/X11/Xutil.h \
+  /usr/include/g++-3/map.h /usr/include/g++-3/tree.h \
+  /usr/include/g++-3/stl_tree.h /usr/include/g++-3/stl_algobase.h \
+  /usr/include/g++-3/stl_relops.h /usr/include/g++-3/stl_pair.h \
+  /usr/include/g++-3/type_traits.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/limits.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/syslimits.h \
+  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
+  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
+  /usr/include/bits/posix2_lim.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new.h \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new \
+  /usr/lib/gcc-lib/i386-redhat-linux/2.96/include/exception \
+  /usr/include/g++-3/stl_iterator.h /usr/include/g++-3/stl_construct.h \
+  /usr/include/g++-3/stl_function.h /usr/include/g++-3/algobase.h \
+  /usr/include/g++-3/pair.h /usr/include/g++-3/iterator.h \
+  /usr/include/g++-3/function.h /usr/include/g++-3/stl_raw_storage_iter.h \
+  /usr/include/g++-3/stl_uninitialized.h /usr/include/g++-3/stl_map.h \
+  /usr/include/g++-3/multimap.h /usr/include/g++-3/stl_multimap.h \
+  ../../../include/MephAppImp.h ../../../include/MephGen.h \
+  ../../../include/MephVisObjImp.h ../../../include/MephVisObjImp_X11.h \
+  /usr/X11R6/include/X11/keysym.h /usr/X11R6/include/X11/keysymdef.h \
+  ../../../include/MephWindow.h ../../../include/MephVisObj.h \
+  ../../../include/MephImage.h ../../../include/MephImageSingleton.h \
+  ../../../include/MephImageImp_X11.h ../../../include/MephImageImp.h \
+  ../../../include/MephPanelImp.h /usr/include/Imlib.h \
+  /usr/include/Imlib_types.h /usr/X11R6/include/X11/Xatom.h \
+  /usr/X11R6/include/X11/Xos.h /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h /usr/include/bits/confname.h \
+  /usr/include/getopt.h /usr/include/sys/time.h \
+  /usr/X11R6/include/X11/Xarch.h \
+  /usr/X11R6/include/X11/extensions/shape.h /usr/include/stdio.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/stdio.h \
+  /usr/include/math.h /usr/include/bits/huge_val.h \
+  /usr/include/bits/mathdef.h /usr/include/bits/mathcalls.h \
+  /usr/include/bits/mathinline.h /usr/include/ctype.h \
+  /usr/include/netinet/in.h /usr/include/stdint.h \
+  /usr/include/bits/wordsize.h /usr/include/bits/socket.h \
+  /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+  /usr/include/asm/sockios.h /usr/include/bits/in.h \
+  /usr/include/bits/byteswap.h ../../../include/MephWindowImp_X11.h \
+  ../../../include/MephWindowImp.h ../../../include/MephPanelImp_X11.h \
+  ../../../include/MephDraw.h ../../../include/MephDrawSingleton.h \
+  ../../../include/MephDrawImp_X11.h ../../../include/MephDrawImp.h \
+  ../../../include/MephGraphicParam.h ../../../include/MephColor.h \
+  ../../../include/MephColorSingleton.h \
+  ../../../include/MephColorImp_X11.h ../../../include/MephColorImp.h \
+  ../../../include/MephTextRaw.h ../../../include/MephTextRawImp.h \
+  ../../../include/MephTextRawSingleton.h \
+  ../../../include/MephTextRawImp_X11.h \
+  ../../../include/MephWindowSingleton.h \
+  ../../../include/MephRadioButton.h \
+  ../../../include/MephRadioButtonImp.h \
+  ../../../include/MephRadioButtonSingleton.h \
+  ../../../include/MephRadioButtonImp_X11.h \
+  ../../../include/MephCheckButton.h \
+  ../../../include/MephCheckButtonImp.h \
+  ../../../include/MephCheckButtonSingleton.h \
+  ../../../include/MephCheckButtonImp_X11.h \
+  ../../../include/MephCommandButton.h ../../../include/MephButton.h \
+  ../../../include/MephPanelContainer.h ../../../include/MephPanel.h \
+  ../../../include/MephPanelSingleton.h \
+  ../../../include/MephCommandButtonImp.h \
+  ../../../include/MephCommandButtonSingleton.h \
+  ../../../include/MephCommandButtonImp_X11.h \
+  ../../../include/MephListBox.h ../../../include/MephItem.h \
+  ../../../include/MephItemImp.h ../../../include/MephItemSingleton.h \
+  ../../../include/MephItemImp_X11.h ../../../include/MephScrollBar.h \
+  ../../../include/MephScrollBarImp.h \
+  ../../../include/MephScrollBarSingleton.h \
+  ../../../include/MephScrollBarImp_X11.h \
+  ../../../include/MephListBoxImp.h \
+  ../../../include/MephListBoxSingleton.h \
+  ../../../include/MephListBoxImp_X11.h \
+  ../../../include/MephFloatingWindow.h \
+  ../../../include/MephFloatingWindowImp.h \
+  ../../../include/MephFloatingWindowSingleton.h \
+  ../../../include/MephFloatingWindowImp_X11.h \
+  ../../../include/MephMenu.h ../../../include/MephMenuImp.h \
+  ../../../include/MephMenuSingleton.h ../../../include/MephMenuImp_X11.h \
+  ../../../include/MephComboBox.h ../../../include/MephComboBoxImp.h \
+  ../../../include/MephComboBoxSingleton.h \
+  ../../../include/MephComboBoxImp_X11.h
+main.cc :
+../../../include/MephApp.h :
+/usr/include/g++-3/alloc.h :
+/usr/include/g++-3/stl_config.h :
+/usr/include/_G_config.h :
+/usr/include/bits/types.h :
+/usr/include/features.h :
+/usr/include/sys/cdefs.h :
+/usr/include/gnu/stubs.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stddef.h :
+/usr/include/bits/pthreadtypes.h :
+/usr/include/bits/sched.h :
+/usr/include/wchar.h :
+/usr/include/bits/wchar.h :
+/usr/include/gconv.h :
+/usr/include/g++-3/stl_alloc.h :
+/usr/include/g++-3/iostream.h :
+/usr/include/g++-3/streambuf.h :
+/usr/include/libio.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/stdarg.h :
+/usr/include/stdlib.h :
+/usr/include/sys/types.h :
+/usr/include/time.h :
+/usr/include/endian.h :
+/usr/include/bits/endian.h :
+/usr/include/sys/select.h :
+/usr/include/bits/select.h :
+/usr/include/bits/sigset.h :
+/usr/include/bits/time.h :
+/usr/include/sys/sysmacros.h :
+/usr/include/alloca.h :
+/usr/include/string.h :
+/usr/include/assert.h :
+/usr/include/pthread.h :
+/usr/include/sched.h :
+/usr/include/signal.h :
+/usr/include/bits/initspin.h :
+/usr/include/bits/sigthread.h :
+../../../include/MephAppSingleton.h :
+../../../include/MephAppImp_X11.h :
+/usr/X11R6/include/X11/Xlib.h :
+/usr/X11R6/include/X11/X.h :
+/usr/X11R6/include/X11/Xfuncproto.h :
+/usr/X11R6/include/X11/Xosdefs.h :
+/usr/X11R6/include/X11/Xutil.h :
+/usr/include/g++-3/map.h :
+/usr/include/g++-3/tree.h :
+/usr/include/g++-3/stl_tree.h :
+/usr/include/g++-3/stl_algobase.h :
+/usr/include/g++-3/stl_relops.h :
+/usr/include/g++-3/stl_pair.h :
+/usr/include/g++-3/type_traits.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/limits.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/syslimits.h :
+/usr/include/limits.h :
+/usr/include/bits/posix1_lim.h :
+/usr/include/bits/local_lim.h :
+/usr/include/linux/limits.h :
+/usr/include/bits/posix2_lim.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new.h :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/new :
+/usr/lib/gcc-lib/i386-redhat-linux/2.96/include/exception :
+/usr/include/g++-3/stl_iterator.h :
+/usr/include/g++-3/stl_construct.h :
+/usr/include/g++-3/stl_function.h :
+/usr/include/g++-3/algobase.h :
+/usr/include/g++-3/pair.h :
+/usr/include/g++-3/iterator.h :
+/usr/include/g++-3/function.h :
+/usr/include/g++-3/stl_raw_storage_iter.h :
+/usr/include/g++-3/stl_uninitialized.h :
+/usr/include/g++-3/stl_map.h :
+/usr/include/g++-3/multimap.h :
+/usr/include/g++-3/stl_multimap.h :
+../../../include/MephAppImp.h :
+../../../include/MephGen.h :
+../../../include/MephVisObjImp.h :
+../../../include/MephVisObjImp_X11.h :
+/usr/X11R6/include/X11/keysym.h :
+/usr/X11R6/include/X11/keysymdef.h :
+../../../include/MephWindow.h :
+../../../include/MephVisObj.h :
+../../../include/MephImage.h :
+../../../include/MephImageSingleton.h :
+../../../include/MephImageImp_X11.h :
+../../../include/MephImageImp.h :
+../../../include/MephPanelImp.h :
+/usr/include/Imlib.h :
+/usr/include/Imlib_types.h :
+/usr/X11R6/include/X11/Xatom.h :
+/usr/X11R6/include/X11/Xos.h :
+/usr/include/fcntl.h :
+/usr/include/bits/fcntl.h :
+/usr/include/unistd.h :
+/usr/include/bits/posix_opt.h :
+/usr/include/bits/confname.h :
+/usr/include/getopt.h :
+/usr/include/sys/time.h :
+/usr/X11R6/include/X11/Xarch.h :
+/usr/X11R6/include/X11/extensions/shape.h :
+/usr/include/stdio.h :
+/usr/include/bits/stdio_lim.h :
+/usr/include/bits/stdio.h :
+/usr/include/math.h :
+/usr/include/bits/huge_val.h :
+/usr/include/bits/mathdef.h :
+/usr/include/bits/mathcalls.h :
+/usr/include/bits/mathinline.h :
+/usr/include/ctype.h :
+/usr/include/netinet/in.h :
+/usr/include/stdint.h :
+/usr/include/bits/wordsize.h :
+/usr/include/bits/socket.h :
+/usr/include/bits/sockaddr.h :
+/usr/include/asm/socket.h :
+/usr/include/asm/sockios.h :
+/usr/include/bits/in.h :
+/usr/include/bits/byteswap.h :
+../../../include/MephWindowImp_X11.h :
+../../../include/MephWindowImp.h :
+../../../include/MephPanelImp_X11.h :
+../../../include/MephDraw.h :
+../../../include/MephDrawSingleton.h :
+../../../include/MephDrawImp_X11.h :
+../../../include/MephDrawImp.h :
+../../../include/MephGraphicParam.h :
+../../../include/MephColor.h :
+../../../include/MephColorSingleton.h :
+../../../include/MephColorImp_X11.h :
+../../../include/MephColorImp.h :
+../../../include/MephTextRaw.h :
+../../../include/MephTextRawImp.h :
+../../../include/MephTextRawSingleton.h :
+../../../include/MephTextRawImp_X11.h :
+../../../include/MephWindowSingleton.h :
+../../../include/MephRadioButton.h :
+../../../include/MephRadioButtonImp.h :
+../../../include/MephRadioButtonSingleton.h :
+../../../include/MephRadioButtonImp_X11.h :
+../../../include/MephCheckButton.h :
+../../../include/MephCheckButtonImp.h :
+../../../include/MephCheckButtonSingleton.h :
+../../../include/MephCheckButtonImp_X11.h :
+../../../include/MephCommandButton.h :
+../../../include/MephButton.h :
+../../../include/MephPanelContainer.h :
+../../../include/MephPanel.h :
+../../../include/MephPanelSingleton.h :
+../../../include/MephCommandButtonImp.h :
+../../../include/MephCommandButtonSingleton.h :
+../../../include/MephCommandButtonImp_X11.h :
+../../../include/MephListBox.h :
+../../../include/MephItem.h :
+../../../include/MephItemImp.h :
+../../../include/MephItemSingleton.h :
+../../../include/MephItemImp_X11.h :
+../../../include/MephScrollBar.h :
+../../../include/MephScrollBarImp.h :
+../../../include/MephScrollBarSingleton.h :
+../../../include/MephScrollBarImp_X11.h :
+../../../include/MephListBoxImp.h :
+../../../include/MephListBoxSingleton.h :
+../../../include/MephListBoxImp_X11.h :
+../../../include/MephFloatingWindow.h :
+../../../include/MephFloatingWindowImp.h :
+../../../include/MephFloatingWindowSingleton.h :
+../../../include/MephFloatingWindowImp_X11.h :
+../../../include/MephMenu.h :
+../../../include/MephMenuImp.h :
+../../../include/MephMenuSingleton.h :
+../../../include/MephMenuImp_X11.h :
+../../../include/MephComboBox.h :
+../../../include/MephComboBoxImp.h :
+../../../include/MephComboBoxSingleton.h :
+../../../include/MephComboBoxImp_X11.h :
